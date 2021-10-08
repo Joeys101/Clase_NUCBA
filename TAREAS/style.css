@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(210deg, rgb(23, 0, 33), white);
+}
+.cajitas{
+    color: grey;
+}
+.borde{
+   border: 3px solid;
+}
