@@ -5,5 +5,5 @@ body{
     color: grey;
 }
 .borde{
-   border: 3px solid;
+   border: 3px solid; vertical-align: middle;
 }
