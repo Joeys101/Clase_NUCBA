@@ -2,17 +2,20 @@ body {
     background-color: aqua;
     text-align: center;
     position: relative;
-}
-.box {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
     left: 50%;
     right: 50%;
-    text-align: center;
+}
+.box {
+    margin-top: 50px;
     width: 432px;
     height: 399px;
     border-radius: 20px;
     background-color: white;
+    
 }
+
 header {
     padding-top: 40px;
     padding-right: 40px;
@@ -23,12 +26,12 @@ header {
 img {
 
 }
-p {
+.toptext {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 60px;
     margin-right: 60px;
 }
-.button {
+.buttonred {
     font-family: Arial, Helvetica, sans-serif;
     width: 150px;
     height: 15x;
@@ -38,11 +41,19 @@ p {
     padding: 15px;
     color: white;
 }
-.box2 {
-    
-    text-align: center;
-    width: 432px;
-    height: 399px;
-    border-radius: 20px;
-    background-color: white;
+.buttonviolet {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    height: 15x;
+    background-color: rgb(64, 15, 109);
+    border-radius: 5px;
+    margin: auto;
+    padding: 15px;
+    color: white;
+}
+.bottomtext {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 25px;
 }
