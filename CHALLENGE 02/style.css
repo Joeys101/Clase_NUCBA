@@ -1,0 +1,133 @@
+* {
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+body {
+    background-color: #dadde1;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    width: 491px;
+    height: 460px;
+    border-radius: 20px;
+    background-color: white;
+}
+.boxcross {
+    position: relative;
+    left: 450px;
+    top: 10px;
+    border-radius: 100%;
+    width: 28px;
+    height: 28px;
+    opacity: 0.5;
+    border-width: 0.5px;
+    border-style: solid;
+  }
+.cross {
+    position: relative;
+    bottom: 10px;
+    left: 8px;
+}
+.support {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: rgb(27, 27, 58);
+}
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.buttons {
+    font-weight: 750;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 5px;
+    width: 25px;
+    height: 20px;
+    border-radius: 5px;
+    border: 20px solid rgba(215, 204, 204, 0.5);
+    border-width: 1px;
+    font-size: 18px;
+}
+.value {
+    display: flex;
+    justify-content: flex-start;
+
+}
+.satisfy {
+    margin-left: 82px;
+}
+.unsatisfied {
+    margin-right: 80px;
+    margin-left: 30px;
+    text-align: right;
+}
+.checkbox {
+    display: flex;
+    justify-content: center;
+    margin-right: 110px;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox > span {
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 0.25rem;
+}
+
+.checkbox > input {
+    height: 25px;
+    width: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 1px solid rgb(194, 183, 183);
+    border-radius: 4px;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+.checkbox > input:checked {
+    border: 1px solid #ffffff;
+    background-color: #FF0099;
+}
+hr {
+    margin-top: 20px;
+    width: 330px;
+    border: 0 none #dedcd8;
+    border-top: 1px solid #f4e7e7;
+}
+.next {
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+    height: 60px;
+    width: 330px;
+    border-radius: 5px;
+    border: 1px solid #cbc4c4;
+    margin-left: 79px;
+}
+.buttons:hover {
+    cursor: pointer;
+    background-color: #FF0099;
+}
+a:hover {
+    color: #ffffff;
+}
+.next:hover {
+    cursor: pointer;
+    background-color: #FF0099;
+}
+.word:hover{
+    color: #ffffff;
+}
